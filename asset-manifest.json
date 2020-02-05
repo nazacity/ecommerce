@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nazacity/ecommerce.git/static/css/main.54ce862a.chunk.css",
+    "main.js": "/nazacity/ecommerce.git/static/js/main.4c319c23.chunk.js",
+    "main.js.map": "/nazacity/ecommerce.git/static/js/main.4c319c23.chunk.js.map",
+    "runtime-main.js": "/nazacity/ecommerce.git/static/js/runtime-main.1a9c2b31.js",
+    "runtime-main.js.map": "/nazacity/ecommerce.git/static/js/runtime-main.1a9c2b31.js.map",
+    "static/js/2.b31df28d.chunk.js": "/nazacity/ecommerce.git/static/js/2.b31df28d.chunk.js",
+    "static/js/2.b31df28d.chunk.js.map": "/nazacity/ecommerce.git/static/js/2.b31df28d.chunk.js.map",
+    "index.html": "/nazacity/ecommerce.git/index.html",
+    "precache-manifest.72c7899a18625aa221e3b0d9243994de.js": "/nazacity/ecommerce.git/precache-manifest.72c7899a18625aa221e3b0d9243994de.js",
+    "service-worker.js": "/nazacity/ecommerce.git/service-worker.js",
+    "static/css/main.54ce862a.chunk.css.map": "/nazacity/ecommerce.git/static/css/main.54ce862a.chunk.css.map",
+    "static/js/2.b31df28d.chunk.js.LICENSE": "/nazacity/ecommerce.git/static/js/2.b31df28d.chunk.js.LICENSE",
+    "static/media/crown.ed28accb.svg": "/nazacity/ecommerce.git/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/nazacity/ecommerce.git/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a9c2b31.js",
+    "static/js/2.b31df28d.chunk.js",
+    "static/css/main.54ce862a.chunk.css",
+    "static/js/main.4c319c23.chunk.js"
+  ]
+}
