@@ -26,7 +26,7 @@ const App = ({ checkUserSession, currentUser }) => {
       <GlobalStyle />
       <Header />
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/ecommerce" component={HomePage} />
         <Route path="/shop" component={ShopPage} />
         <Route path="/checkout" component={CheckOutPage} />
         <Route

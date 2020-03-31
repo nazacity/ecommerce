@@ -20,7 +20,7 @@ import {
 
 const Header = ({ currentUser, hidden, signOutStart }) => (
   <HeaderContainer>
-    <LogoContainer to="/">
+    <LogoContainer to="/ecommerce">
       <Logo className="logo" />
     </LogoContainer>
     <OptionsContainer>
