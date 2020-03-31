@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 //import { setCurrentUser } from './redux/user/user.action';
-import './App.css';
+
 import { createStructuredSelector } from 'reselect';
 import HomePage from './pages/homepage/Homepage';
 import CheckOutPage from './pages/checkoutpage/CheckOutPage';
@@ -14,6 +14,7 @@ import { checkUserSession } from './redux/user/user.action';
 // import { selectCollectionsForPreview } from './redux/shop/shop.selectors';
 // import { addCollectionAndDocuments } from './firebase/firebase.util';
 // import Collection from './pages/collection/Collection';
+import { GlobalStyle } from './global.styles';
 
 const App = ({ checkUserSession, currentUser }) => {
   useEffect(() => {
@@ -22,14 +23,15 @@ const App = ({ checkUserSession, currentUser }) => {
 
   return (
     <div>
+      <GlobalStyle />
       <Header />
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/shop" component={ShopPage} />
-        <Route path="/checkout" component={CheckOutPage} />
+        <Route exact path="/ecommerce" component={HomePage} />
+        <Route path="/ecommerce/shop" component={ShopPage} />
+        <Route path="/ecommerce/checkout" component={CheckOutPage} />
         <Route
           exact
-          path="/signin"
+          path="/ecommerce/signin"
           render={() => (currentUser ? <Redirect to="/" /> : <SignInAndUP />)}
         />
       </Switch>
