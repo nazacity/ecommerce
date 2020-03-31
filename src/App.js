@@ -32,7 +32,9 @@ const App = ({ checkUserSession, currentUser }) => {
         <Route
           exact
           path="/signin"
-          render={() => (currentUser ? <Redirect to="/" /> : <SignInAndUP />)}
+          render={() =>
+            currentUser ? <Redirect to="/ecommerce" /> : <SignInAndUP />
+          }
         />
       </Switch>
     </div>
