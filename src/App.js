@@ -26,12 +26,12 @@ const App = ({ checkUserSession, currentUser }) => {
       <GlobalStyle />
       <Header />
       <Switch>
-        <Route exact path="/ecommerce" component={HomePage} />
-        <Route path="/ecommerce/shop" component={ShopPage} />
-        <Route path="/ecommerce/checkout" component={CheckOutPage} />
+        <Route exact path="/" component={HomePage} />
+        <Route path="/shop" component={ShopPage} />
+        <Route path="/checkout" component={CheckOutPage} />
         <Route
           exact
-          path="/ecommerce/signin"
+          path="/signin"
           render={() => (currentUser ? <Redirect to="/" /> : <SignInAndUP />)}
         />
       </Switch>
